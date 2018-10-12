@@ -1,0 +1,12 @@
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    height: 100%;
+}
+.contact-header{
+    color: rgb(231, 231, 231);
+    width: 90%;
+}

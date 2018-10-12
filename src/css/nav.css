@@ -1,0 +1,23 @@
+.navbar2{
+    display:flex !important;
+    justify-content: space-between;
+
+    align-items: center;
+    position: fixed;
+    font-size: 1.1rem;
+    z-index: 3;
+    height: 80px;
+    width: 100%;
+    /* min-width: 1050px; */
+    top: 0px;
+    background-color: rgba(91, 157, 173, 0.938);
+    font-family: 'Lato', sans-serif;
+}
+.NavLink{
+    color: rgb(255, 255, 255);
+}
+.title1{
+    color:rgb(245, 209, 142) !important;
+    font-size: 25px;
+    font-weight: 400;
+}

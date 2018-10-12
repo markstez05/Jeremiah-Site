@@ -1,0 +1,84 @@
+.info-box{
+    background: rgb(240, 240, 240);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+.skew-div{
+    width: 100%;
+    height:250px;
+    background-color: rgb(240, 240, 240);
+    transform: skew(0deg,-2.4deg);
+    margin-top: -40px;
+    z-index: 0;
+}
+.info1{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title{
+    margin-top: -100px;
+    font-size: 2.8rem;
+    max-width: 80%;
+    z-index: 1;
+}
+.title-text{
+    margin-left:20px;
+    margin-top: 10px;
+    z-index: 1;
+    width: 63%;
+    text-align: left;
+    font-family: 'Sintony', sans-serif;
+}
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    padding: 10px;
+    background-color: rgb(167, 167, 167);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: rgb(241, 241, 241);
+}
+.mission-title{
+    margin-top:30px;
+}
+.mission-text{
+    width: 70%;
+    font-size: 1.2rem;
+    margin:auto;
+    color: rgb(43, 43, 43);
+    letter-spacing: .017cm;
+    text-align: left;
+}
+
+.mission-text2{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 1.1rem;
+    text-align: left;
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Sintony', sans-serif;
+    font-weight: 700;
+}
+.dui-info{
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    margin-bottom: 20px;
+}
+.dui-text{
+    text-align: left;
+    width: 45%;
+}
