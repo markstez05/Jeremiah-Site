@@ -13,6 +13,7 @@ class App extends Component {
       <Main />
       <Info />
       <Contact />
+      <footer className="footer">© 2018 Jeremiah Hall, Inc | Site By Sakkey 2018</footer>
       </div>
     );
   }

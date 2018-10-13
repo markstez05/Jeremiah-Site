@@ -21,26 +21,50 @@
     justify-content: flex-start;
     align-items: center;
 }
+.title-div{
+    display: flex;
+    flex-direction: column;
+}
 .title{
     margin-top: -100px;
-    font-size: 2.8rem;
-    max-width: 80%;
+    font-size: 2.5rem;
     z-index: 1;
+    margin-bottom: 20px;
 }
 .title-text{
-    margin-left:20px;
     margin-top: 10px;
     z-index: 1;
-    width: 63%;
+    width: 350px;
     text-align: left;
     font-family: 'Sintony', sans-serif;
+}
+.photo-div{
+    display: flex;
+    /* width:700px; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+.photo{
+    margin-top: 15px;
+    margin-right: 30px;
+    border-radius: 100%;
+    border: 7px solid rgb(22, 157, 167);
+    width: 210px;
+    height: 210px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -30px;
+    background-position-x: -px;
+    background-image: url("../img/Jeremiah.png");
+    z-index: 1;
 }
 .mission{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    height: 400px;
+    width: 100%;
     padding: 10px;
     background-color: rgb(167, 167, 167);
     margin-top: 100px;
@@ -52,7 +76,7 @@
     margin-top:30px;
 }
 .mission-text{
-    width: 70%;
+    width: 800px;
     font-size: 1.2rem;
     margin:auto;
     color: rgb(43, 43, 43);
@@ -65,16 +89,19 @@
     border-bottom: 2px solid black;
     font-size: 1.1rem;
     text-align: left;
-    width: 85%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    max-width: 1300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding: 15px;
     font-family: 'Sintony', sans-serif;
     font-weight: 700;
 }
+.info-title{
+    border-bottom: 2px solid gray;
+}
 .dui-info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width:80%;
     margin-bottom: 20px;
 }

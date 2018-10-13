@@ -142,9 +142,9 @@
     z-index: 3;
 }
 .card-title:hover{
-    transition: all 1s ease;
+    transition: all 1.4s ease;
     border: 10px solid rgb(61, 172, 192);
-    background-color: rgb(230, 230, 230);
+    background-color: rgba(218, 218, 218, 0.925);
     text-decoration: none;
     color: rgb(39, 39, 39);
     cursor: pointer;

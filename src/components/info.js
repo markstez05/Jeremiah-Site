@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../css/info.css"
+import Jeremiah from "../img/Jeremiah.png";
 
 class Info extends Component{
     render(){
@@ -7,33 +8,37 @@ class Info extends Component{
             <div id="about" className="info-box">
             <div className="skew-div"></div>
             <div className="info1">
+            <div className="title-div">
             <h1 className="title">DUI School and Assessments by Jeremiah, Inc.</h1>
-            <p className="title-text">In need of comprehensive ADSAC DUI assessment and/or classes? DUI School
+            <div className="photo-div">
+            <p className="title-text"><strong>In need of comprehensive ADSAC DUI assessment and/or classes? </strong>DUI School
 and Assessments by Jeremiah, INC. is a state-certified DUI Assessor in Tulsa, OK. I
-am a state certified and approved ADSAC DUI Assessor and Facilitator. This Fall will
-be providing education classes to provide assistance for your DUI, probation, parole,
+am a state certified and approved ADSAC DUI Assessor and Facilitator. This fall I will
+be providing education classes to provide assistance for your <strong>DUI, probation, parole, </strong> 
 and other court- ordered concerns.</p>
+<div className="photo" ></div></div>
+        </div>
             <div className="mission">
                 <h1 className="mission-title">Mission Statement</h1>
-                <p id="info" className="mission-text">
+                <p className="mission-text">
 The sole purpose of the corporation is to conduct, Alcohol and Drug Substance Abuse
 Courses/Assessments to persons ordered by the court and/or convicted of driving under the
 influence of any substance or receiving an alcohol or other drug related revocation or
 suspension of driving privileges, to identify substance abuse problems, and refer those
 offenders identified with substance abuse problems to licensed community-based treatment
-programs.</p>
+programs.<div id="info"></div></p>
 </div>
+
     <div className="dui-info">
        <div className="dui-text">
-         <h3>DUI Offense in Oklahoma</h3>
-         <h5>Things to Prioritize</h5>
+         <h3 className="info-title">DUI Offense in Oklahoma</h3>
        <p>
                If you have not spoken with an attorney, do so. You only have a certain amount of days
                 to object in having your license revoked. An attorney can assist you with this. Next, call
                 us at 918-232-9119 as soon as possible. The faster you get started with services, the
                 faster you will get your life back on track. We can provide general information over the
-                phone, as well as schedule your appointments. Please have the following information 
-                ready when you call:
+                phone, as well as schedule your appointments. <strong>Please have the following information 
+                ready when you call:</strong>
        </p>
        <li className="list">Blood Alcohol Concentration (BAC) (This can be found on your arrest report.)</li>
                     <li className="list">Date of Birth</li>
@@ -42,9 +47,9 @@ programs.</p>
                     <li className="list">Social Security Number</li>
        </div>
        <div className="dui-text">
-         <h3>Steps for License Reinstatement</h3>
+         <h3 className="info-title">Steps for License Reinstatement</h3>
        <p>
-       If you have been arrested for a DUI violation and your license has been revoked, you
+       If you have been arrested for a <strong>DUI violation</strong> and your license has been revoked, you
                 will receive a letter from the Department of Public Safety (DPS) that will include the
                 following information:
        </p>
