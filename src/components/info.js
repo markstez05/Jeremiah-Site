@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "../css/info.css"
-import Jeremiah from "../img/Jeremiah.png";
 
 class Info extends Component{
     render(){
