@@ -9,7 +9,7 @@ class NavBar extends Component{
 
   componentDidMount() {
     document.addEventListener('scroll', () => {
-    const isTop = window.scrollY < 300;
+    const isTop = window.scrollY < 800;
     if (isTop !== this.state.isTop) {
       this.setState({ isTop });
     } 
@@ -21,7 +21,7 @@ class NavBar extends Component{
 
     render(){
         return(
-            <div id="navdiv" style={{ backgroundColor: !this.state.isTop ? "rgba(91, 157, 173, .7)" : "rgba(91, 157, 173, 0)" }}className="navdiv">
+            <div id="navdiv" style={{ backgroundColor: !this.state.isTop ? "rgba(91, 157, 173, .9)" : "rgba(91, 157, 173, 0)" }}className="navdiv">
           <a className="title1" href="/">JEREMIAH HALL DUI SCHOOL</a>
               <Scrollspy items={ ['home','about', 'contact'] } currentClassName="is-current">
             <div className="navbar1">

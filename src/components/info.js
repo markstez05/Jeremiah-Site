@@ -12,21 +12,21 @@ class Info extends Component{
             <h1 className="title">DUI School and Assessments by Jeremiah, Inc.</h1>
             <div className="photo-div">
             <p className="title-text"><strong>In need of comprehensive ADSAC DUI assessment and/or classes? </strong>DUI School
-and Assessments by Jeremiah, INC. is a state-certified DUI Assessor in Tulsa, OK. I
-am a state certified and approved ADSAC DUI Assessor and Facilitator. This fall I will
-be providing education classes to provide assistance for your <strong>DUI, probation, parole, </strong> 
-and other court- ordered concerns.</p>
-<div className="photo" ></div></div>
+        and Assessments by Jeremiah, INC. is a state-certified DUI Assessor in Tulsa, OK. I
+        am a state certified and approved ADSAC DUI Assessor and Facilitator. This fall I will
+        be providing education classes to provide assistance for your <strong>DUI, probation, parole, </strong> 
+        and other court- ordered concerns.</p>
+    <div className="photo" ></div></div>
         </div>
             <div className="mission">
                 <h1 className="mission-title">Mission Statement</h1>
                 <p className="mission-text">
-The sole purpose of the corporation is to conduct, Alcohol and Drug Substance Abuse
-Courses/Assessments to persons ordered by the court and/or convicted of driving under the
-influence of any substance or receiving an alcohol or other drug related revocation or
-suspension of driving privileges, to identify substance abuse problems, and refer those
-offenders identified with substance abuse problems to licensed community-based treatment
-programs.<div id="info"></div></p>
+        The sole purpose of the corporation is to conduct, Alcohol and Drug Substance Abuse
+        Courses/Assessments to persons ordered by the court and/or convicted of driving under the
+        influence of any substance or receiving an alcohol or other drug related revocation or
+        suspension of driving privileges, to identify substance abuse problems, and refer those
+        offenders identified with substance abuse problems to licensed community-based treatment
+        programs.<div id="info"></div></p>
 </div>
 
     <div className="dui-info">

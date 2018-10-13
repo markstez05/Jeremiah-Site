@@ -20,6 +20,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
 }
 .title-div{
     display: flex;
@@ -63,8 +64,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
     width: 100%;
+    min-width: 100%;
+    height: 400px;
     padding: 10px;
     background-color: rgb(167, 167, 167);
     margin-top: 100px;
@@ -83,13 +85,12 @@
     letter-spacing: .017cm;
     text-align: left;
 }
-
 .mission-text2{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     font-size: 1.1rem;
     text-align: left;
-    max-width: 1300px;
+    max-width: 1100px;
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 15px;
@@ -101,11 +102,11 @@
 }
 .dui-info{
     display: flex;
-    justify-content: space-between;
-    width:80%;
+    justify-content: space-around;
+    width: 80%;
     margin-bottom: 20px;
 }
 .dui-text{
     text-align: left;
-    width: 45%;
+    max-width: 500px;
 }
