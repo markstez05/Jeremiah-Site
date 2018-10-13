@@ -115,9 +115,9 @@
     animation-fill-mode: forwards;
     display: flex;
     flex-direction: row;
-    align-content: space-between;
-    justify-content: space-around;
     margin-bottom: 50px;
+    justify-content: space-around;
+    margin-right: 30px;
 }
 .info-card{
     width: 210px;
