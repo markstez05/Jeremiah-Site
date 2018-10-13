@@ -1,50 +1,35 @@
 import React, { Component } from 'react';
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink} from 'reactstrap';
 import "../css/nav.css";
 import Scrollspy from 'react-scrollspy'
 
 class NavBar extends Component{
-    constructor(props) {
-        super(props);
-    
-        this.toggle = this.toggle.bind(this);
-        this.state = {
-          isOpen: false
-        };
-      }
-      toggle() {
-        this.setState({
-          isOpen: !this.state.isOpen
-        });
-      }
-     
+    state = {
+    isTop: true,
+  };
+
+  componentDidMount() {
+    document.addEventListener('scroll', () => {
+    const isTop = window.scrollY < 300;
+    if (isTop !== this.state.isTop) {
+      this.setState({ isTop });
+    } 
+      })
+    };
+  
+
+
 
     render(){
         return(
-            <div className="navdiv">
-            <Navbar className="navbar2" light expand="md">
-          <NavbarBrand className="title1" href="/">JEREMIAH HALL DUI SCHOOL</NavbarBrand>
+            <div id="navdiv" style={{ backgroundColor: !this.state.isTop ? "rgba(91, 157, 173, .7)" : "rgba(91, 157, 173, 0)" }}className="navdiv">
+          <a className="title1" href="/">JEREMIAH HALL DUI SCHOOL</a>
               <Scrollspy items={ ['home','about', 'contact'] } currentClassName="is-current">
-            <Nav className="navbar1" navbar>
-            <NavItem>
-                <NavLink href="#home">Home</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#about">About</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#contact">Contact</NavLink>
-              </NavItem>
-            </Nav>
+            <div className="navbar1">
+                <a className="nav-link" href="#home">Home</a>
+                <a className="nav-link" href="#about">About</a>
+                <a className="nav-link" href="#contact">Contact</a>
+            </div>
               </Scrollspy>
-        </Navbar>
             </div>
         )
     }

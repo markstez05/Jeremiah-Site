@@ -35,7 +35,7 @@ programs.<div id="info"></div></p>
        <p>
                If you have not spoken with an attorney, do so. You only have a certain amount of days
                 to object in having your license revoked. An attorney can assist you with this. Next, call
-                us at 918-232-9119 as soon as possible. The faster you get started with services, the
+                us at <strong>918-232-9119</strong> as soon as possible. The faster you get started with services, the
                 faster you will get your life back on track. We can provide general information over the
                 phone, as well as schedule your appointments. <strong>Please have the following information 
                 ready when you call:</strong>
