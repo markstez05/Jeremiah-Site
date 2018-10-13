@@ -14,7 +14,7 @@ class Main extends Component{
             <img src={drive} alt="drive" className="drive" ></img>
             <div className="info-container">
             <div className="info">
-            <p className="tag1b">OKLHOMA</p><p className="tag1">DUI SCHOOL &</p><p className="tag1">ASSESSMENTS</p>
+            <p className="tag1b">OKLAHOMA</p><p className="tag1">DUI SCHOOL &</p><p className="tag1">ASSESSMENTS</p>
             </div>
             <div className="title-tag">
                 <p className="tag2">Jeremiah Hall, Inc</p>
