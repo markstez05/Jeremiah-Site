@@ -78,7 +78,8 @@
     margin-top:30px;
 }
 .mission-text{
-    width: 800px;
+    width:85%;
+    max-width: 1000px;
     font-size: 1.2rem;
     margin:auto;
     color: rgb(43, 43, 43);
@@ -105,28 +106,40 @@
     justify-content: space-around;
     width: 80%;
     margin-bottom: 20px;
+    max-width: 1100px;
 }
 .dui-text{
     text-align: left;
     max-width: 500px;
 }
-
+.list{
+    width: 92%;
+    font-size: .93rem;
+    margin: auto;
+}
 @media (max-width: 1345px){
 .info-title{
     font-size:1.5rem;
     font-weight: 700;
 }
 .dui-text{
-    max-width: 380px;
+    max-width: 350px;
   }
 }
 .mission-text2{
     width: 95%;
 }
+
 @media (max-width: 1025px){
     .mission-text2{
         font-size: 1.rem;
         width: 95%;
+    }
+    .dui-info{
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 650px){
@@ -209,7 +222,8 @@
         color: white;
     }
     .list{
-        width: 92%;
+        width: 90%;
+        font-size: .8rem;
         margin: auto;
     }
 }
