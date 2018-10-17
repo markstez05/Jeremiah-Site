@@ -67,14 +67,13 @@
     }
     .contact-info{
         margin-right: 0px 0px 0px 0px;
-        max-width: 400px;
-        max-width: 100%;
+        max-width: 90%;
         margin: auto;
         font-size: .9rem;
     }
     .contact-text{
         border-top: 0px;
-        width: 95%;
+        width: 100%;
         margin-top: 0px;
         max-width: none;
         font-size: 1rem;
@@ -84,7 +83,7 @@
         font-size:1.6rem;
     }
     .contact-info{
-        width: 90%;
+        width: 100%;
     }
     .disclaimer{
         margin-top: 0px;
