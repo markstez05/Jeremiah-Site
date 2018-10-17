@@ -15,7 +15,7 @@ Oklahoma, you must contact The Oklahoma Department of Mental Health and
 Substance Abuse at (405) 248-9027 to get approval for your out-of-state class.</li>
             </div>
             <div className="contact-text">
-            <h1>Call Us for DUI Assessment</h1>
+            <h1 className="contact-title">Call Us for DUI Assessment</h1>
             <p className="contact-number">Call: (918) 232-9119</p>
             <p className="contact-info">Call DUI School and Assessments by Jeremiah, Inc., a certified DUI facility in Tulsa,
             OK, to schedule an appointment for your Alcohol and/or Drug

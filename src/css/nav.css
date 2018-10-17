@@ -44,3 +44,12 @@
     width: 190px;
   }  
 }
+@media (max-width: 450px){
+    .title1{
+        width: 600px;
+        font-size: .8rem;
+      }  
+      .nav-link{
+          font-size: .8em;
+      }
+}

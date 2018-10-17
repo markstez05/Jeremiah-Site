@@ -25,10 +25,67 @@
 }
 .disclaimer{
     text-align: left;
-    color: rgb(231, 231, 231);
+    color: white;
     width: 500px;
     margin-top: 50px;
 }
 .disclaimer-title{
     text-align: center;
+}
+@media (max-width: 1025px){
+    .contact-info{
+        max-width: 400px;
+        font-size: .8rem;
+    }
+    .contact-text{
+        max-width: 350px;
+        font-size: 1rem;
+    }
+    .contact-title{
+        font-size:1.6rem;
+    }
+    .disclaimer{
+        margin-bottom: 90px;
+        max-width: 400px;
+        font-size: .8rem;
+    }
+    .disclaimer-title{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 450px){
+    .contact-container{
+        margin-top:30px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(29, 29, 29);
+        height: 500px;
+        margin-bottom: 20px;
+    }
+    .contact-info{
+        margin-right: 0px 0px 0px 0px;
+        max-width: 100%;
+        font-size: .8rem;
+    }
+    .contact-text{
+        width: 95%;
+        font-size: 1rem;
+    }
+    .contact-title{
+        margin-top: 0px;
+        font-size:1.6rem;
+    }
+    .disclaimer{
+        margin-top: 0px;
+        margin-bottom: 90px;
+        max-width: 90%;
+        font-size: .8rem;
+        margin-bottom: 20px;
+    }
+    .disclaimer-title{
+        font-size: 1.6rem;
+    }
 }
