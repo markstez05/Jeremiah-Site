@@ -117,6 +117,7 @@
     flex-direction: row;
     margin-bottom: 50px;
     justify-content: space-around;
+    /* align-self: center; */
     margin-right: 30px;
 }
 .info-card{
@@ -194,7 +195,6 @@
     .info-container{
         margin: auto;
         margin-top: 70px;
-        height: 400px;
         width: 700px;
         display:flex;
         flex-direction: column-reverse;
