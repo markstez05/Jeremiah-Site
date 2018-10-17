@@ -53,13 +53,13 @@
         font-size: 1.6rem;
     }
 }
-@media (max-width: 450px){
+@media (max-width: 650px){
     .contact-container{
         margin-top:30px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         width: 100%;
         background-color: rgb(29, 29, 29);
         height: 500px;
@@ -67,22 +67,30 @@
     }
     .contact-info{
         margin-right: 0px 0px 0px 0px;
+        max-width: 400px;
         max-width: 100%;
-        font-size: .8rem;
+        margin: auto;
+        font-size: .9rem;
     }
     .contact-text{
+        border-top: 0px;
         width: 95%;
+        margin-top: 0px;
+        max-width: none;
         font-size: 1rem;
     }
     .contact-title{
-        margin-top: 0px;
+        margin-top: 10px;
         font-size:1.6rem;
+    }
+    .contact-info{
+        width: 90%;
     }
     .disclaimer{
         margin-top: 0px;
         margin-bottom: 90px;
         max-width: 90%;
-        font-size: .8rem;
+        font-size: .9rem;
         margin-bottom: 20px;
     }
     .disclaimer-title{

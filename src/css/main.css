@@ -246,7 +246,7 @@
         margin-bottom: 80px;
     }
   }
-  @media (max-width: 450px){
+  @media (max-width: 650px){
     .info-container{
         margin: auto;
         margin-top: 120px;
