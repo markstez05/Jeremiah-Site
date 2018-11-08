@@ -6,6 +6,7 @@ class Contact extends Component{
     render(){
         return(
             <div id="contact" className="contact-container">
+            <div className="contact2">
             <div className="disclaimer">
             <h1 className="disclaimer-title">Disclaimer</h1>
     <li>Oklahoma does not currently have an online option for ADSAC DUI classes or Victim
@@ -24,7 +25,7 @@ Substance Abuse at (405) 248-9027 to get approval for your out-of-state class.</
             of ADSAC requirements you will need to complete (ADSAC Classes, Victim Impact
             Panel, substance abuse treatment, etc.).</p>
             </div>
-            
+            </div>
             </div>
         )
     }

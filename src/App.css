@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   overflow-x: hidden;
+
 }
 
 .App-logo {
@@ -23,6 +24,7 @@
   color: #61dafb;
 }
 .footer{
+  position: absolute;
   color:white;
   text-align: left;
   margin-left: 20px;

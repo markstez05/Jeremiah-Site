@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
      <NavBar />
       <Main />
-      <Info />
+      <Info id="about" />
       <Contact />
       <footer className="footer">© 2018 Jeremiah Hall, Inc | Site By Sakkey</footer>
       </div>

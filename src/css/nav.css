@@ -6,6 +6,7 @@
     width: 100%;
     background-color: rgba(169, 169, 197, 0);
     z-index: 3;
+    transition: all ease-in .5s;
 }
 .navbar1{
     display:flex;

@@ -13,7 +13,16 @@ class NavBar extends Component{
     if (isTop !== this.state.isTop) {
       this.setState({ isTop });
     } 
-      })
+      });
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
     };
   
 
