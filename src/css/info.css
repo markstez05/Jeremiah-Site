@@ -18,54 +18,47 @@
 .info1{
     display:flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
 .title-div{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    align-content: space-between;
     max-width: 1050px;
-    /* border-bottom: 2px solid gray; */
     width: 85%;
 }
 .title{
     margin-top: -100px;
-    font-size: 2.1rem;
-    text-align: left;
-    /* padding-bottom: 15px;
-    border-bottom: 2px solid gray; */
+    font-size: 2.9rem;
+    text-align: center;
     z-index: 1;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 .title-text{
-    margin-top: 55px;
+    margin-top: 25px;
     z-index: 1;
-    font-size: 1.2rem;
-    width: 650px;
-    text-align: left;
+    font-size: 1.1rem;
+    width: 600px;
+   text-align: left;
     font-family: 'Sintony', sans-serif;
 }
 .photo-div{
     display: flex;
-    /* width:700px; */
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
 }
 .photo{
-    margin-top: -10px;
-    margin-bottom: 0px;
-    margin-right: 50px;
-    margin-left: 10px;
     border-radius: 100%;
     border: 7px solid rgba(91, 157, 173);
-    width: 250px;
-    height: 260px;
+    width: 200px;
+    height: 210px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -30px;
-    background-position-x: -px;
+    background-position-x: 0px;
     background-image: url("../img/Jeremiah.png");
     z-index: 1;
 }
@@ -79,7 +72,7 @@
     height: 330px;
     padding: 0px;
     background-color: rgb(167, 167, 167);
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 70px;
     font-weight: 700;
     color: rgb(241, 241, 241);
@@ -123,7 +116,7 @@
     width: 85%;
     margin-bottom: 20px;
     max-width: 1050px;
-    font-size: 1rem;
+    font-size: 1.05rem;
 }
 .dui-text{
     text-align: left;
@@ -131,7 +124,7 @@
 }
 .list{
     width: 92%;
-    font-size: .93rem;
+    font-size: .91rem;
     margin: auto;
 }
 @media (max-width: 1345px){
@@ -149,7 +142,7 @@
 
 @media (max-width: 1025px){
     .mission-text2{
-        font-size: 1.rem;
+        font-size: 1rem;
         width: 95%;
     }
     .dui-info{
@@ -159,7 +152,12 @@
         margin-bottom: 20px;
     }
     .photo{
-        margin-top:40px;
+        margin-top:20px;
+    }
+    .title{
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+        text-align: left;
     }
 }
 @media (max-width: 650px){
