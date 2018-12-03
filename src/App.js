@@ -11,9 +11,15 @@ class App extends Component {
       <div className="App">
      <NavBar />
       <Main />
-      <Info id="about" />
+      <Info />
       <Contact />
-      <footer className="footer">© 2018 Jeremiah Hall, Inc | Site By Sakkey</footer>
+      <footer className="footer">© 2018 Jeremiah Hall, Inc | Site By 
+      <a className="visited"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://markstesney.netlify.com/"><span> </span>Sakkey
+            </a>
+            </footer>
       </div>
     );
   }

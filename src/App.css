@@ -30,6 +30,17 @@
   text-align: left;
   margin-left: 20px;
 }
+.visited{
+  color: #a0a0a0;
+}
+.visited:hover{
+  text-decoration: none;
+  color: #61dafb;
+  
+}
+.footer a:visited{
+  text-decoration: none;
+}
 
 @keyframes App-logo-spin {
   from {

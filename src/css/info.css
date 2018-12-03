@@ -199,13 +199,13 @@
         width: 90%;
         font-size: .8rem;
         margin:auto;
-        margin-bottom: 20px;
+        margin-bottom:40px;
         color: rgb(43, 43, 43);
         letter-spacing: .017cm;
         text-align: left;
     }
     .mission-title{
-        margin-top:10px;
+        margin-top:30px;
         margin-bottom: 0px;
     }
     .dui-info{
@@ -236,10 +236,14 @@
         background-color: gray;
         width: 100%;
         padding: 20px;
+        padding-bottom: 10px;
         margin-bottom: 0px;
         border-top: 0px;
         border-bottom: 0px;
         color: white;
+    }
+    .mission-text2 p{
+        margin-top: 5px;
     }
     .list{
         width: 90%;

@@ -59,6 +59,9 @@
     }
 }
 @media (max-width: 650px){
+    .contact-container{
+        height: 100%;
+    }
     .contact2{
         margin-top:30px;
         display: flex;
